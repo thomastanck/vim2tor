@@ -1,0 +1,45 @@
+""" 00 Transformations """
+
+Transform each set of lines using the specified rule.
+
+========
+Rule:
+
+a
+=>
+a += a % 3
+
+--------
+
+vim
+tutor
+apple
+pear
+banana
+
+========
+Rule:
+
+C.a = a
+=>
+C.set_a(a)
+
+--------
+
+C.vim = vim
+C.tutor = tutor
+C.apple = apple
+C.pear = pear
+
+========
+Rule:
+
+a = c - b
+=>
+a = -b + c
+
+--------
+
+vim = text - hassle
+profit = revenue - cost
+taxes = government - anarchy
